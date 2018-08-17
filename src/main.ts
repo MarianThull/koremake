@@ -62,6 +62,8 @@ function shaderLang(platform: string): string {
 			switch (Options.graphicsApi) {
 				case GraphicsApi.OpenGL:
 					return 'glsl';
+				case GraphicsApi.OpenGL1:
+					return 'glsl';
 				case GraphicsApi.Direct3D9:
 					return 'd3d9';
 				case GraphicsApi.Direct3D11:
